@@ -112,7 +112,7 @@ function Page() {
 
         <CardContent>
         <div className="text-center">
-          <p>Demo User email = test@gmail.com</p>
+          <p>Demo User email = raman@gmail.com</p>
           <p>Demo User password  = 123456</p>
         </div>
           <form className="space-y-4" onSubmit={submitForm}>
