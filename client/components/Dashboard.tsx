@@ -15,7 +15,7 @@ export function DashboardComponent() {
   const router = useRouter();
 
   const fetchTasks = async () => {
-    const url = `${process.env.NEXT_PUBLIC_BASE_URL}/api/alltasks`;
+    const url = `https://task-manage-teal.vercel.app/api/alltasks`;
     const headers = {
         method: "POST",
         headers: {

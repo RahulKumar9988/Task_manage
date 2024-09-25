@@ -30,7 +30,7 @@ const AddTaskModal = () => {
 
     // if there is id present in task it will update that task
     if (newTask._id) {
-      const url = `${process.env.NEXT_PUBLIC_BASE_URL}/api/updatetask`;
+      const url = `https://task-manage-teal.vercel.app/api/updatetask`;
       const headers = {
         method: "POST",
         headers: {
@@ -54,7 +54,7 @@ const AddTaskModal = () => {
 
       // is there is no id present in task it will add new task to the list
       try {
-        const url = `${process.env.NEXT_PUBLIC_BASE_URL}/api/addtask`;
+        const url = `https://task-manage-teal.vercel.app/api/addtask`;
         const headers = {
           method: "POST",
           headers: {

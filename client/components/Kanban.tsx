@@ -20,7 +20,7 @@ const Kanban = () => {
 
   const updateTaskStatus = async (task:Task) => {
     try {
-      const url = `${process.env.NEXT_PUBLIC_BASE_URL}/api/updatetask`;
+      const url = `https://task-manage-teal.vercel.app/api/updatetask`;
       const headers = {
         method: "POST",
         headers: {

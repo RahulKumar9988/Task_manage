@@ -34,7 +34,7 @@ function Page() {
     setLoading(true);
     try {
 
-      const url = `${process.env.NEXT_PUBLIC_BASE_URL}/auth/login`;
+      const url = `https://task-manage-teal.vercel.app/auth/login`;
       const res = await fetch(url, {
         method: "POST",
         headers: {

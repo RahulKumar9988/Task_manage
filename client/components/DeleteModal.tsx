@@ -20,7 +20,7 @@ const DeleteModal = () => {
 
   const handleDeleteTask = async() => {
     if (taskToDelete) {
-      const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/deletetask`, {
+      const res = await fetch(`https://task-manage-teal.vercel.app/api/deletetask`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

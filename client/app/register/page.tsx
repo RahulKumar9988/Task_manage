@@ -59,7 +59,7 @@ function Page() {
 
     try {
     setLoading(true);
-      const url = `${process.env.NEXT_PUBLIC_BASE_URL}/auth/register`;
+      const url = `https://task-manage-teal.vercel.app/auth/register`;
       const res = await fetch(url, {
         method: "POST",
         headers: {
