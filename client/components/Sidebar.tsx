@@ -33,7 +33,7 @@ const Sidebar = () => {
     <>
       {/* MOBILE MENU  */}
       <div className="sm:hidden flex justify-between items-center p-3 shadow-md bg-background  ">
-        <h1 className="text-xl font-bold dark:text-white">Task Manager</h1>
+        <h1 className="text-xl font-bold dark:text-white">Todo's Management</h1>
 
         <div className="flex justify-center items-center">
           <Button
