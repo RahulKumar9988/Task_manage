@@ -92,7 +92,7 @@ const Sidebar = () => {
       >
         <div className="flex flex-col h-full ">
           <div className="p-4 flex items-center justify-between">
-            <h1 className="text-xl font-bold dark:text-white">Task Manager</h1>
+            <h1 className="text-xl font-bold dark:text-white">Todo's Management</h1>
             <Button
               variant="ghost"
               size="icon"
